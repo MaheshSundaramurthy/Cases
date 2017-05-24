@@ -20,7 +20,6 @@ class LoadCaseData extends ResourceFixture implements OrderedFixtureInterface
         $fixtures = $this->parse(__DIR__.'/../../Resources/data/{server}/cases.yml');
 
         foreach ($fixtures as $fixture) {
-            var_dump($fixture);
             $entity = new CaseEntity();
             $entity->setUuid($fixture['uuid']);
             $entity->setOwner($fixture['owner']);
