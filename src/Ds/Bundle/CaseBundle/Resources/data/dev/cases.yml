@@ -1,12 +1,13 @@
 cases:
     -
         title:
-            en: Case 1
-        uuid: 75f26b8c-d01b-4575-9ade-983d6ffe408c
+            en: Fishing permit application
+            fr: Demande de permis de pêche
+        uuid: A9D57564-8ED9-426D-8C0D-7E4F6F65A17F
         owner: BusinessUnit
-        ownerUuid: 8bca60bb-11ac-420a-bf7b-23c698ab9244
+        ownerUuid: 25b88f35-eb37-4dae-9d89-668151e11a0d             # Administration
         identity: Individual
-        identityUuid: 8bca60bb-11ac-420a-bf7b-23c698ab9244
+        identityUuid: 9be0af28-ef41-49b7-86d9-72a2d9beb051          # Morgan
 
 prototype:
     uuid: ~
@@ -14,4 +15,4 @@ prototype:
     ownerUuid: ~
     identity: ~
     identityUuid: ~
-    title: ~
+    title: []

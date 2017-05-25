@@ -1,12 +1,4 @@
-cases:
-    -
-        title:
-            en: Case 1
-        uuid: 75f26b8c-d01b-4575-9ade-983d6ffe408c
-        owner: BusinessUnit
-        ownerUuid: 8bca60bb-11ac-420a-bf7b-23c698ab9244
-        identity: Individual
-        identityUuid: 8bca60bb-11ac-420a-bf7b-23c698ab9244
+cases: []
 
 prototype:
     uuid: ~
@@ -14,4 +6,4 @@ prototype:
     ownerUuid: ~
     identity: ~
     identityUuid: ~
-    title: ~
+    title: []
