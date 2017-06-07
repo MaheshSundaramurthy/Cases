@@ -23,9 +23,9 @@ class LoadCaseData extends ResourceFixture implements OrderedFixtureInterface
             $entity = new CaseEntity();
             $entity->setUuid($fixture['uuid']);
             $entity->setOwner($fixture['owner']);
-            $entity->setOwnerUuid($fixture['ownerUuid']);
+            $entity->setOwnerUuid($fixture['owner_uuid']);
             $entity->setIdentity($fixture['identity']);
-            $entity->setIdentityUuid($fixture['identityUuid']);
+            $entity->setIdentityUuid($fixture['identity_uuid']);
             $entity->setTitle($fixture['title']);
 
             $manager->persist($entity);

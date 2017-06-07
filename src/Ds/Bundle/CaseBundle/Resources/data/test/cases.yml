@@ -3,7 +3,7 @@ cases: []
 prototype:
     uuid: ~
     owner: ~
-    ownerUuid: ~
+    owner_uuid: ~
     identity: ~
-    identityUuid: ~
+    identity_uuid: ~
     title: []

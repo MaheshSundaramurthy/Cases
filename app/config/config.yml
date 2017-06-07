@@ -104,9 +104,9 @@ ds_model:
 
 ds_security:
     token:
-        ip: ~
-        client: ~
+#        ip: ~
+#        client: ~
         identity: ~
     filter:
         anonymous: ~
-        individual: ~
+        individual: false

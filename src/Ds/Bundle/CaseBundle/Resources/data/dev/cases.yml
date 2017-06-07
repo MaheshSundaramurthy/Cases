@@ -1,18 +1,27 @@
 cases:
     -
         title:
-            en: Fishing permit application
-            fr: Demande de permis de pêche
+            en: Business license application
+            fr: Demande de licence d'entreprise
         uuid: A9D57564-8ED9-426D-8C0D-7E4F6F65A17F
         owner: BusinessUnit
-        ownerUuid: 25b88f35-eb37-4dae-9d89-668151e11a0d             # Administration
+        owner_uuid: 7e105be4-578d-4a1f-bc04-fd85f3ddcc38             # Finance
         identity: Individual
-        identityUuid: 9be0af28-ef41-49b7-86d9-72a2d9beb051          # Morgan
+        identity_uuid: 9be0af28-ef41-49b7-86d9-72a2d9beb051          # Morgan
+    -
+        title:
+            en: Fishing permit application
+            fr: Demande de permis de pêche
+        uuid: 2E60E81B-3E8E-4166-B812-EAF363A1F033
+        owner: BusinessUnit
+        owner_uuid: 25b88f35-eb37-4dae-9d89-668151e11a0d             # Administration
+        identity: Individual
+        identity_uuid: cfc5c5ce-cc7b-41ff-8699-fbf1dc92d555          # Cindy
 
 prototype:
     uuid: ~
     owner: ~
-    ownerUuid: ~
+    owner_uuid: ~
     identity: ~
-    identityUuid: ~
+    identity_uuid: ~
     title: []
